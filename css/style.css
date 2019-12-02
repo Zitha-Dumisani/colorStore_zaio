@@ -1,0 +1,104 @@
+
+
+
+.checked {
+    color: black;
+}
+
+div.div1 {
+    float: left
+}
+
+span.rating {
+    color: lightgrey
+}
+
+span.discount {
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+span.price {
+    color: lightgray
+}
+
+span.rate {
+    color: black;
+    font-weight: bold;
+}
+
+span.color_lable {
+    font-weight: bold
+}
+span.colors{
+    float:left;
+}
+
+button.btnCl {
+    border-radius: 50%;
+    border-width: 0.5px;
+    border-color: black;
+    /*border:none;*/
+    padding: 2px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p.guide {
+    font-weight: bold;
+    font-size: small;
+}
+
+p.fit {
+    font-weight: bold;
+    font-size: small;
+}
+
+p.count {
+    font-weight: bold;
+    border-radius: 25px;
+    border: solid black;
+    width: 60px;
+    height: 40px;
+    border-width: 0.5px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+button.CheckOut {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    border-width: 0px;
+}
+
+p.details {
+    font-size: large;
+    font-weight: bold;
+}
+
+p.need {
+    font-weight: bold;
+    font-size: small;
+}
+
+p.shiping {
+    font-weight: bold;
+    font-size: small;
+}
+
+
+.dot {
+    background-color: black;
+    border-radius: 50%;
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+    display:inline-block;
+    vertical-align: top;
+}

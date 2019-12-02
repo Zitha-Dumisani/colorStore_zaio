@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Dialog</title>
+    
+    <style>
+        #quantity {
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .incBtn {
+            font-size: x-large;
+            font-weight: bold;
+            border-radius: 50%;
+            height: 70px;
+            width: 70px;
+            color: white;
+            background-color: black;
+            border: none;
+        }
+
+        .table1 {
+        }
+
+        #Cancel {
+            font-size: large;
+            background-color: lightcoral;
+            border-width: 1px;
+            border-color: darkred;
+            border-radius: 5px;
+        }
+
+        #Submit {
+            font-size: large;
+            background-color: lightgreen;
+            border-color: green;
+            border-width: 1px;
+            border-radius: 5px;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="js/script.js"></script>
+
+    <p>&nbsp;&nbsp; Please add the quantity of the item you have selected</p>
+    <br />
+    <br />
+    <table class="table1">
+        <tr>
+            <td><p id="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Red</p></td>
+            <td>&nbsp; &nbsp; &nbsp;<button onclick="MinusClick()" type="button" id="minus" class="incBtn">-</button></td>
+            <td>&nbsp; &nbsp; &nbsp;</td>
+            <td><p id="quantity" class="quantity">0</p></td>
+            <td>&nbsp; &nbsp; &nbsp;<button onclick="PlusClick()" type="button" id="plus" class="incBtn">+</button></td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <table>
+        <tr>
+            <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            </td>
+            <td><button type="button" id="Submit" onclick="SubmitClick()">Submit</button></td>
+            <td><button onclick="CancelClick()" type="button" id="Cancel">Cancel</button></td>
+        </tr>
+    </table>
+</body>
+</html>
